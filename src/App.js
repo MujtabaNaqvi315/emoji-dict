@@ -11,12 +11,14 @@ function App() {
       </h1>
 
       <dl className="dictionary">
-        {emojipedia.map(item => <Entry 
-          key = {item.id}
-          emoji = {item.emoji}
-          name = {item.name}
-          meaning = {item.meaning}
-        />)}
+        {emojipedia.map(item => (
+          <Entry 
+            key = {item.id}
+            emoji = {item.emoji}
+            name = {item.name}
+            meaning = {item.meaning}
+          />
+        ))}
       </dl>
     </div>
   );
