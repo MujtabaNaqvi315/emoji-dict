@@ -21,12 +21,12 @@ const emojipedia = [
         "This is funny! A smiley face, rolling on the floor, laughing. The face is laughing boundlessly. The emoji version of “rofl“. Stands for „rolling on the floor, laughing“."
     },
     {
-        id: 4,
-        emoji: "😎️",
-        name: "Face With Sunglasses",
-        meaning:
-          "I'm the king of the world! Smart and casual, this emoji features a face with a wide, closed smile and black sunglasses."
-      }
+      id: 4,
+      emoji: "😎️",
+      name: "Face With Sunglasses",
+      meaning:
+        "I'm the king of the world! Smart and casual, this emoji features a face with a wide, closed smile and black sunglasses."
+    }
   ];
 
 export default emojipedia;
